@@ -9,7 +9,7 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
-  title: "Finance IA",
+  title: "Finance AI",
   description: "A Finance AI é uma plataforma de gestão financeira",
 };
 
