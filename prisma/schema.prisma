@@ -40,6 +40,7 @@ model Transaction {
   name          String
   amount        Decimal                  @db.Decimal(10, 2)
   date          DateTime
+  userId        String
   type          TransactionType
   category      TransactionCategory
   paymentMethod TransactionPaymentMethod
